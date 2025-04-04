@@ -82,7 +82,7 @@ Valid style modifiers are as follows:
  </tr>
  <tr>
   <td>
-   <a href="#variablecustom-background-colour-modifier-v"><b>Variable/custom background colour</a>
+   <a href="#variablecustom-background-colour-modifier-b"><b>Variable/custom background colour</a>
   </td>
   <td>
    <code>{B:<i>colour-index</i>}</code>
