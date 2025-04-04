@@ -34,7 +34,7 @@ Valid style modifiers are as follows:
 <table>
  <tr>
   <td>   
-   <a href="#c-modifier"><b>Predefined text colour</a>
+   <a href="#predefined-text-colour-modifier-c"><b>Predefined text colour</a>
   </td>
   <td>
    <code>{C:<i>colour-key</i>}</code>
@@ -42,7 +42,7 @@ Valid style modifiers are as follows:
  </tr>
  <tr>
   <td>
-   <a href="#x-modifier"><b>Text background colour</a>
+   <a href="#text-background-colour-modifier-x"><b>Text background colour</a>
   </td>
   <td>
    <code>{X:<i>colour-key</i>}</code>
@@ -50,7 +50,7 @@ Valid style modifiers are as follows:
  </tr>
  <tr>
   <td>
-   <a href="#v-modifier"><b>Variable/Custom text colour</a>
+   <a href="#variablecustom-text-colour-modifier-v"><b>Variable/Custom text colour</a>
   </td>
   <td>
    <code>{V:<i>colour-index</i>}</code>
@@ -58,7 +58,7 @@ Valid style modifiers are as follows:
  </tr>
  <tr>
   <td>
-   <a href="#e-modifier"><b>Text motion</a>
+   <a href="#text-motion-modifier-e"><b>Text motion</a>
   </td>
   <td>
    <code>{E:<i>motion-index</i>}</code>
@@ -66,7 +66,7 @@ Valid style modifiers are as follows:
  </tr>
  <tr>
   <td>
-   <a href="#t-modifier"><b>Text hover tooltip</a>
+   <a href="#text-hover-tooltip-modifier-t"><b>Text hover tooltip</a>
   </td>
   <td>
    <code>{T:<i>tooltip-key</i>}</code>
@@ -74,7 +74,7 @@ Valid style modifiers are as follows:
  </tr>
  <tr>
   <td>
-   <a href="#s-modifier"><b>Text scale</a>
+   <a href="#text-scale-modifier-s"><b>Text scale</a>
   </td>
   <td>
    <code>{s:<i>scale</i>}</code>
@@ -94,7 +94,6 @@ Valid style modifiers are as follows:
 
 
 ## Predefined text colour modifier `{C:}`
-<a name="c-modifier"></a>
 <code>{C:<i>colour-key</i>}</code> changes the color of the text, where *`colour-key`* is the **key** of a colour defined in [G.ARGS.LOC_COLOURS](#loc_colours-table).
 
 ### Examples
@@ -158,7 +157,6 @@ Valid style modifiers are as follows:
 
 
 ## Text background colour modifier `{X:}`
-<a name="x-modifier"></a>
 <code>{X:<i>colour-key</i>}</code> sets the background color of the text, where *`colour-key`* is the **key** of a colour defined in [G.ARGS.LOC_COLOURS](#loc_colours-table).
 
 This modifier is usually combined with the text colour modifier to make <img src="Assets/Text-Styling/example_X3_Mult_dark.svg#gh-dark-mode-only" height=24 alt="X Mult" align="top"><img src="Assets/Text-Styling/example_X3_Mult_light.svg#gh-light-mode-only" height=24 alt="X Mult" align="top"> labels.
@@ -207,7 +205,6 @@ This modifier is usually combined with the text colour modifier to make <img src
 
 
 ## Variable/Custom text colour modifier `{V:}`
-<a name="v-modifier"></a>
 <code>{V:<i>index</i>}</code> changes the colour of the text to a custom colour provided as an entry in the [`loc_vars`](Localization.md#loc_vars) `vars.colours` table. See [`Localization`](Localization.md#loc_vars) for more details.
 
 *`index`* is the array index of the colour entry in the `vars.colours` table.
@@ -272,9 +269,7 @@ This modifier is usually combined with the text colour modifier to make <img src
 
 
 
-## Moving text modifier `{E:}`
-<a name="e-modifier"></a>
-
+## Text motion modifier `{E:}`
 `{E:1}` applies a floating animation to each letter in the text.
 
 `{E:2}` applies a bumping animation to each letter in sequence.
@@ -326,9 +321,7 @@ This modifier is usually combined with the text colour modifier to make <img src
 
 
 
-## Tooltip modifier `{T:}`
-<a name="t-modifier"></a>
-
+## Text hover tooltip modifier `{T:}`
 <code>{T:<i>tooltip-key</i>}</code> adds tooltip functionality to the text, which displays a small tooltip UI above the text when the text is hovered over.
 
 *`tooltip-key`* must be the name of a key found in either `G.P_CENTERS` or `G.P_TAGS`. See the entries in the SMODS.Center category and [SMODS.Tag](SMODS.Tag.md) for more.
@@ -356,8 +349,6 @@ This modifier is usually combined with the text colour modifier to make <img src
 
 
 ## Text scale modifier `{s:}`
-<a name="s-modifier"></a>
-
 <code>{s:<i>scale</i>}</code> changes the size of the text.
 
 *`scale`* is a decimal value where the default size is 1.0.
