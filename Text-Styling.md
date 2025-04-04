@@ -93,7 +93,7 @@ Valid style modifiers are as follows:
 
 
 
-## Predefined text colour modifier (`{C:}`)
+## Predefined text colour modifier `{C:}`
 <a name="c-modifier"></a>
 <code>{C:<i>colour-key</i>}</code> changes the color of the text, where *`colour-key`* is the **key** of a colour defined in [G.ARGS.LOC_COLOURS](#loc_colours-table).
 
@@ -157,7 +157,7 @@ Valid style modifiers are as follows:
 
 
 
-## Text background colour modifier (`{X:}`)
+## Text background colour modifier `{X:}`
 <a name="x-modifier"></a>
 <code>{X:<i>colour-key</i>}</code> sets the background color of the text, where *`colour-key`* is the **key** of a colour defined in [G.ARGS.LOC_COLOURS](#loc_colours-table).
 
@@ -206,7 +206,7 @@ This modifier is usually combined with the text colour modifier to make <img src
 
 
 
-## Variable/Custom text colour modifier (`{V:}`)
+## Variable/Custom text colour modifier `{V:}`
 <a name="v-modifier"></a>
 <code>{V:<i>index</i>}</code> changes the colour of the text to a custom colour provided as an entry in the [`loc_vars`](Localization.md#loc_vars) `vars.colours` table. See [`Localization`](Localization.md#loc_vars) for more details.
 
@@ -272,7 +272,7 @@ This modifier is usually combined with the text colour modifier to make <img src
 
 
 
-## Moving text modifier (`{E:}`)
+## Moving text modifier `{E:}`
 <a name="e-modifier"></a>
 
 `{E:1}` applies a floating animation to each letter in the text.
@@ -326,7 +326,7 @@ This modifier is usually combined with the text colour modifier to make <img src
 
 
 
-## Tooltip modifier (`{T:}`)
+## Tooltip modifier `{T:}`
 <a name="t-modifier"></a>
 
 <code>{T:<i>tooltip-key</i>}</code> adds tooltip functionality to the text, which displays a small tooltip UI above the text when the text is hovered over.
@@ -355,7 +355,7 @@ This modifier is usually combined with the text colour modifier to make <img src
 
 
 
-## Text scale modifier (`{s:}`)
+## Text scale modifier `{s:}`
 <a name="s-modifier"></a>
 
 <code>{s:<i>scale</i>}</code> changes the size of the text.
