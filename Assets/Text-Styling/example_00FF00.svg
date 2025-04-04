@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="128" viewBox="0 0 100 40">
+	<defs>
+		<path id="zero" d="m2 8h8v2h2v18h-2v2h-8v-2h-2v-18h2v-2zm2 4v14h4v-14h-4z"/>
+		<path id="F" d="m2 8h10v4h-8v4h6v4h-6v10h-4v-20h2v-2z"/>
+	</defs>
+	<g>
+		<path d="m8 0.0h82.0l4 4v28.0l-4 4h-82.0l-4-4v-28.0z" fill="#00FF00FF"/>
+	</g>
+	<g>
+		<g fill="#4F6367FF" transform="translate(5,0)">
+				<use href="#zero" x="3"/>
+				<use href="#zero" x="17"/>
+				<use href="#F" x="31"/>
+				<use href="#F" x="45"/>
+				<use href="#zero" x="59"/>
+				<use href="#zero" x="73"/>
+		</g>
+	</g>
+	<text font-family="m6x11plus,Courier New" fill="transparent">
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="10" y="28" textLength="1">{B:1}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="11" y="28" textLength="84">00FF00</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="94" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="95" y="28" textLength="0"></tspan>
+	</text>
+</svg>
