@@ -23,6 +23,8 @@ Balatro includes a very basic formatting syntax for styling and formatting displ
  </tr>
 </table>
 
+Style modifiers are not additive - text will only be styled by the modifiers contained within the previous set of curly braces. Using empty braces `{}` will reset text styling for text after it.
+
 Most SMODS objects that display description text will parse and style text strings automatically when loading from [localization files](Localization.md#localization-files-recommended) or [`loc_txt`](Localization.md#loc_txt). This includes the text strings of descriptions for Achievements, Consumables, Decks, Jokers, Vouchers, and more.
 
 
@@ -34,7 +36,7 @@ Valid style modifiers are as follows:
    <a href="#c-modifier"><b>Predefined text colour</a>
   </td>
   <td>
-   <code>{C:<a href="#loc_colours">loc_colours-key</a>}</code>
+   <code>{C:<i>colour-key</i>}</code>
   </td>
  </tr>
  <tr>
@@ -42,7 +44,7 @@ Valid style modifiers are as follows:
    <a href="#x-modifier"><b>Text background colour</a>
   </td>
   <td>
-   <code>{X:<a href="#loc_colours">loc_colours-key</a>}</code>
+   <code>{X:<i>colour-key</i>}</code>
   </td>
  </tr>
  <tr>
@@ -50,7 +52,7 @@ Valid style modifiers are as follows:
    <a href="#v-modifier"><b>Variable/Custom text colour</a>
   </td>
   <td>
-   <code>{V:<a href="#v-modifier">colour-index</a>}</code>
+   <code>{V:<i>colour-index</i>}</code>
   </td>
  </tr>
  <tr>
@@ -58,7 +60,7 @@ Valid style modifiers are as follows:
    <a href="#e-modifier"><b>Text motion</a>
   </td>
   <td>
-   <code>{E:<a href="#e-modifier">motion-index</a>}</code>
+   <code>{E:<i>motion-index</i>}</code>
   </td>
  </tr>
  <tr>
@@ -66,7 +68,7 @@ Valid style modifiers are as follows:
    <a href="#t-modifier"><b>Text hover tooltip</a>
   </td>
   <td>
-   <code>{T:<a href="#t-modifier">tooltip-key</a>}</code>
+   <code>{T:<i>tooltip-key</i>}</code>
   </td>
  </tr>
  <tr>
@@ -74,7 +76,7 @@ Valid style modifiers are as follows:
    <a href="#s-modifier"><b>Text scale</a>
   </td>
   <td>
-   <code>{s:<a href="#s-modifier">scale</a>}</code>
+   <code>{s:<i>scale</i>}</code>
   </td>
  </tr>
  <tr>
@@ -89,20 +91,21 @@ Valid style modifiers are as follows:
 
 
 
+
 ## Predefined text colour modifier (`{C:}`)
 <a name="c-modifier"></a>
-`{C:`[*`colour-key`*](#loc_colours)`}` changes the color of the text, where [*`colour-key`*](#loc_colours) is the **key** of a colour defined in [LOC_COLOURS](#loc_colours-table).
+<code>{C:<i>colour-key</i>}</code> changes the color of the text, where *`colour-key`* is the **key** of a colour defined in [G.ARGS.LOC_COLOURS](#loc_colours-table).
 
 ### Examples
 
-<!--- Single-indented table is necessary for code blocks -->
+<!--- Single-indented table is necessary for code blocks to function properly -->
 <table>
  <tr>
   <td> Text string </td> <td> <code>loc_vars</code> </td> <td> Result </td>
  </tr>
  <tr>
   <td colspan=2>
-<!-- Code blocks require a preceding empty line when inside tables -->
+<!-- Code blocks require a preceding empty line when inside HTML tables -->
 
    ```pas
    {C:mult}+4{} Mult
@@ -153,7 +156,7 @@ Valid style modifiers are as follows:
 
 ## Text background colour modifier (`{X:}`)
 <a name="x-modifier"></a>
-`{X:`[*`colour-key`*](#loc_colours)`}` sets the background color of the text, where [*`colour-key`*](#loc_colours) is the key of a colour defined in [LOC_COLOURS](#loc_colours-table).
+<code>{X:<i>colour-key</i>}</code> sets the background color of the text, where *`colour-key`* is the **key** of a colour defined in [G.ARGS.LOC_COLOURS](#loc_colours-table).
 
 This modifier is usually combined with the text colour modifier to make <img src="Assets/Text-Styling/example_X3_Mult_dark.svg#gh-dark-mode-only" height=24 alt="X Mult" align="top"><img src="Assets/Text-Styling/example_X3_Mult_light.svg#gh-light-mode-only" height=24 alt="X Mult" align="top"> labels.
 
@@ -201,9 +204,9 @@ This modifier is usually combined with the text colour modifier to make <img src
 
 ## Variable/Custom text colour modifier (`{V:}`)
 <a name="v-modifier"></a>
-`{V:`[`index`](#colour-index)`}` changes the colour of the text to a custom colour provided as an entry in the [`loc_vars`](Localization.md#loc_vars) `vars.colours` table. See [`Localization`](Localization.md#loc_vars) for more details.
+<code>{V:<i>index</i>}</code> changes the colour of the text to a custom colour provided as an entry in the [`loc_vars`](Localization.md#loc_vars) `vars.colours` table. See [`Localization`](Localization.md#loc_vars) for more details.
 
-[`index`](#colour-index) is the array index of the colour entry in the `colours` table.
+*`index`* is the array index of the colour entry in the `vars.colours` table.
 
 ### Examples
 
@@ -234,15 +237,23 @@ This modifier is usually combined with the text colour modifier to make <img src
   <td>
    
    ```pas
-   {V:1}#1#{} suit{}
+   {V:2}#2#{} suit{}
    ```
   </td>
   <td>
    
    ```lua
    vars = {
+     "Spade",
      "Heart",
-     colours = { G.C.SUITS.Hearts }
+     "Club",
+     "Diamond",
+     colours = { 
+       G.C.SUITS.Spades,
+       G.C.SUITS.Hearts,
+       G.C.SUITS.Clubs,
+       G.C.SUITS.Diamonds
+     }
    }
    ```
   </td>
@@ -311,9 +322,9 @@ This modifier is usually combined with the text colour modifier to make <img src
 ## Tooltip modifier (`{T:}`)
 <a name="t-modifier"></a>
 
-`{T:`[*`tooltip-key`*](#tooltip-key-examples)`}` adds tooltip functionality to the text, which displays a small tooltip UI above the text when the text is hovered over.
+<code>{T:<i>tooltip-key</i>}</code> adds tooltip functionality to the text, which displays a small tooltip UI above the text when the text is hovered over.
 
-[*`tooltip-key`*](#tooltip-key-examples) must be the name of a key found in either `G.P_CENTERS` or `G.P_TAGS`. See the entries in the SMODS.Center category and [SMODS.Tag](SMODS.Tag.md) for more.
+*`tooltip-key`* must be the name of a key found in either `G.P_CENTERS` or `G.P_TAGS`. See the entries in the SMODS.Center category and [SMODS.Tag](SMODS.Tag.md) for more.
 
 ### Examples
 
@@ -340,9 +351,9 @@ This modifier is usually combined with the text colour modifier to make <img src
 ## Text scale modifier (`{s:}`)
 <a name="s-modifier"></a>
 
-`{s:`[*`scale`*](#scale)`}` changes the size of the text.
+<code>{s:<i>scale</i>}</code> changes the size of the text.
 
-[*`scale`*](#scale) is a decimal value where the default size is 1.0.
+*`scale`* is a decimal value where the default size is 1.0.
 
 Vanilla Balatro only uses `s:0.8`, `s:0.85` and `s:1.1` text scales.
 
@@ -553,10 +564,10 @@ Most style codes can be combined within one set of curly braces.
   <td>
    <code>G.C.GOLD</code>
   </td>
-  <td> </td>
-  <td align="center">
-   Unused
+  <td> 
+  <img src="Assets/Text-Styling/example_Android.svg" height=24 alt="Earn $4">
   </td>
+  <td> </td>
  </tr>
  <tr>
   <td>
