@@ -619,7 +619,9 @@ Most style codes can be combined within one set of curly braces.
   <td>
    <code>G.C.WHITE</code>
   </td>
-  <td> </td>
+  <td>
+   <img src="Assets/Text-Styling/example_E-2_Joker_dark.svg" height=24 alt="Joker">
+  </td>
   <td> </td>
  </tr>
  <tr>
@@ -858,7 +860,9 @@ Most style codes can be combined within one set of curly braces.
   <td>
  <code>G.C.UI.TEXT_DARK</code>
   </td>
-  <td> </td>
+  <td>
+   <img src="Assets/Text-Styling/example_E-2_Joker_light.svg" height=24 alt="Joker">
+  </td>
   <td> </td>
  </tr>
 </table>
