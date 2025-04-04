@@ -34,7 +34,7 @@ Valid style modifiers are as follows:
    <a href="#c-modifier"><b>Predefined text colour</a>
   </td>
   <td>
-   <code>{C:<a href="#text-styling">loc_colours-key</a>}</code>
+   <code>{C:<a href="#loc_colours">loc_colours-key</a>}</code>
   </td>
  </tr>
  <tr>
@@ -66,7 +66,7 @@ Valid style modifiers are as follows:
    <a href="#t-modifier"><b>Text hover tooltip</a>
   </td>
   <td>
-   <code>{T:<a href="#tooltip-references">tooltip-key</a>}</code>
+   <code>{T:<a href="#t-modifier">tooltip-key</a>}</code>
   </td>
  </tr>
  <tr>
@@ -201,7 +201,7 @@ This modifier is usually combined with the text colour modifier to make <img src
 
 ## Variable/Custom text colour modifier (`{V:}`)
 <a name="v-modifier"></a>
-`{V:`[`index`](#colour-index)`}` changes the colour of the text to a custom colour provided as an entry in the `loc_vars` `vars.colours` table. See [`loc_vars`](Localization.md#loc_vars) for more details.
+`{V:`[`index`](#colour-index)`}` changes the colour of the text to a custom colour provided as an entry in the [`loc_vars`](Localization.md#loc_vars) `vars.colours` table. See [`Localization`](Localization.md#loc_vars) for more details.
 
 [`index`](#colour-index) is the array index of the colour entry in the `colours` table.
 
