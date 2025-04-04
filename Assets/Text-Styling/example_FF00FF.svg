@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="128" viewBox="0 0 94 40">
+	<defs>
+		<path id="zero" d="m2 8h8v2h2v18h-2v2h-8v-2h-2v-18h2v-2zm2 4v14h4v-14h-4z"/>
+		<path id="F" d="m2 8h10v4h-8v4h6v4h-6v10h-4v-20h2v-2z"/>
+	</defs>
+	<g fill="rgba(0,0,0,0.3)">
+		<g transform="translate(7,2)">
+			<use href="#F" x="0"/>
+			<use href="#F" x="14"/>
+			<use href="#zero" x="28"/>
+			<use href="#zero" x="42"/>
+			<use href="#F" x="56"/>
+			<use href="#F" x="70"/>
+		</g>
+		<g transform="translate(91,2)">
+		</g>
+	</g>
+	<g>
+		<g fill="#ff00ff" transform="translate(5,0)">
+				<use href="#F" x="0"/>
+				<use href="#F" x="14"/>
+				<use href="#zero" x="28"/>
+				<use href="#zero" x="42"/>
+				<use href="#F" x="56"/>
+				<use href="#F" x="70"/>
+		</g>
+		<g fill="#ff00ff" transform="translate(89,0)">
+		</g>
+	</g>
+	<text font-family="m6x11plus,Courier New" fill="transparent">
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{V:1}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="84">FF00FF</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="88" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="89" y="28" textLength="0"></tspan>
+	</text>
+</svg>
