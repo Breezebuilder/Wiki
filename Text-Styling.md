@@ -3,6 +3,7 @@
 Balatro includes a very basic formatting syntax for styling and formatting displayed text in-game. Where supported, text strings can be styled with the use of *style modifier codes* included within the text string. For example, the text string:
 
 <table>
+ <tr></tr>
  <tr>
   <td>
 
@@ -116,6 +117,7 @@ Valid style modifiers are as follows:
    <img src="Assets/Text-Styling/example_+4_Mult_light.svg#gh-light-mode-only" height=32 alt="+4 Mult">
   </td>
  </tr>
+ <tr> </tr> <!--- Empty row to ensure all codeblock rows have the same background colour -->
  <tr>
   <td colspan=2>
 
@@ -128,6 +130,7 @@ Valid style modifiers are as follows:
    <img src="Assets/Text-Styling/example_1_free_Reroll_light.svg#gh-light-mode-only" height=32 alt="1 free Reroll">
   </td>
  </tr>
+ <tr> </tr> <!--- Empty row to ensure all codeblock rows have the same background colour -->
  <tr>
   <td>
 
@@ -178,6 +181,7 @@ This modifier is usually combined with the text colour modifier to make <img src
    <img src="Assets/Text-Styling/example_X3_Mult_light.svg#gh-light-mode-only" height=32 alt="X3 Mult">
   </td>
  </tr>
+ <tr> </tr> <!--- Empty row to ensure all codeblock rows have the same background colour -->
  <tr>
   <td>
    
@@ -233,6 +237,7 @@ This modifier is usually combined with the text colour modifier to make <img src
    <img src="Assets/Text-Styling/example_FF00FF.svg" height=32 alt="FF00FF">
   </td>
  </tr>
+ <tr> </tr> <!--- Empty row to ensure all codeblock rows have the same background colour -->
  <tr>
   <td>
    
@@ -291,6 +296,7 @@ This modifier is usually combined with the text colour modifier to make <img src
    <img src="Assets/Text-Styling/example_E-1_probabilities.svg" height=32 alt="probabilities">
   </td>
  </tr>
+ <tr> </tr> <!--- Empty row to ensure all codeblock rows have the same background colour -->
  <tr>
   <td>
 
@@ -303,6 +309,7 @@ This modifier is usually combined with the text colour modifier to make <img src
    <img src="Assets/Text-Styling/example_E-2_Joker_light.svg#gh-light-mode-only" height=32 alt="Joker">
   </td>
  </tr>
+ <tr> </tr> <!--- Empty row to ensure all codeblock rows have the same background colour -->
  <tr>
   <td>
    
@@ -408,6 +415,7 @@ Most style codes can be combined within one set of curly braces.
    <img src="Assets/Text-Styling/example_X0.5.svg" height=32 alt="X0.5" align="center">
   </td>
  </tr>
+ <tr> </tr> <!--- Empty row to ensure all codeblock rows have the same background colour -->
  <tr>
   <td colspan=2>
 
@@ -419,6 +427,7 @@ Most style codes can be combined within one set of curly braces.
    <img src="Assets/Text-Styling/example_YOU_WIN!.svg" height=48 alt="YOU WIN!">
   </td>
  </tr>
+ <tr> </tr> <!--- Empty row to ensure all codeblock rows have the same background colour -->
  <tr>
   <td>
 
