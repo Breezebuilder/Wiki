@@ -6,6 +6,7 @@ Balatro includes a very basic formatting syntax for styling and formatting displ
  <tr></tr>
  <tr>
   <td>
+   <br>
 
    ```pas
    {C:blue}+1{} hand
@@ -50,7 +51,7 @@ Valid style modifiers are as follows:
  </tr>
  <tr>
   <td>
-   <a href="#variablecustom-text-colour-modifier-v"><b>Variable/Custom text colour</a>
+   <a href="#variablecustom-text-colour-modifier-v"><b>Variable/custom text colour</a>
   </td>
   <td>
    <code>{V:<i>colour-index</i>}</code>
@@ -161,6 +162,8 @@ Valid style modifiers are as follows:
 
 This modifier is usually combined with the text colour modifier to make <img src="Assets/Text-Styling/example_X3_Mult_dark.svg#gh-dark-mode-only" height=24 alt="X Mult" align="top"><img src="Assets/Text-Styling/example_X3_Mult_light.svg#gh-light-mode-only" height=24 alt="X Mult" align="top"> labels.
 
+This modifier uniquely strips all whitespace from the styled text, so text like `{X:gold} W I D E {}` is rendered as <img src="Assets/Text-Styling/example_WIDE.svg" height=24 alt="WIDE" align="center">. This can be helpful for improving the readability of otherwise dense strings.
+
 ### Examples
 
 <table>
@@ -181,10 +184,23 @@ This modifier is usually combined with the text colour modifier to make <img src
  </tr>
  <tr> </tr> <!--- Empty row to ensure all codeblock rows have the same background colour -->
  <tr>
+  <td colspan=2>
+
+   ```pas
+   {X:chips,C:white} X 1 . 5 {} Chips{}
+   ```
+  </td>
+  <td>
+   <img src="Assets/Text-Styling/example_X1.5_Chips_dark.svg#gh-dark-mode-only" height=32 alt="X1.5 Chips">
+   <img src="Assets/Text-Styling/example_X1.5_Chips_light.svg#gh-light-mode-only" height=32 alt="X1.5 Chips">
+  </td>
+ </tr>
+ <tr> </tr> <!--- Empty row to ensure all codeblock rows have the same background colour -->
+ <tr>
   <td>
    
    ```pas
-   {X:mult,C:white}X#1#{}
+   {X:mult,C:white} X#1# {}
    ```
   </td>
   <td>
