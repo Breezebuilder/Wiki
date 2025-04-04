@@ -20,14 +20,14 @@
 	</g>
 	<g>
 		<g fill="#FFFFFFFF" transform="translate(5,0)">
-				<use href="#X" x="3"/>
-				<use href="#three" x="19"/>
+			<use href="#X" x="3"/>
+			<use href="#three" x="19"/>
 		</g>
 		<g fill="#FFFFFFFF" transform="translate(35,0)">
-				<use href="#M" x="18"/>
-				<use href="#u" x="36"/>
-				<use href="#l" x="50"/>
-				<use href="#t" x="56"/>
+			<use href="#M" x="18"/>
+			<use href="#u" x="36"/>
+			<use href="#l" x="50"/>
+			<use href="#t" x="56"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">

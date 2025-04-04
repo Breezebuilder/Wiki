@@ -14,21 +14,17 @@
 			<use href="#b" x="34"/>
 			<use href="#s" x="48"/>
 		</g>
-		<g transform="translate(69,2)">
-		</g>
 	</g>
 	<g>
 		<g fill="#235955FF" transform="translate(5,0)">
-				<use href="#C" x="0"/>
-				<use href="#l" x="14"/>
-				<use href="#u" x="20"/>
-				<use href="#b" x="34"/>
-				<use href="#s" x="48"/>
-		</g>
-		<g fill="#FFFFFFFF" transform="translate(67,0)">
+			<use href="#C" x="0"/>
+			<use href="#l" x="14"/>
+			<use href="#u" x="20"/>
+			<use href="#b" x="34"/>
+			<use href="#s" x="48"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:clubs}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="62">Clubs</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="66" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="67" y="28" textLength="0"></tspan>
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:clubs}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="62">Clubs</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="66" y="28" textLength="1">{}</tspan>
 	</text>
 </svg>

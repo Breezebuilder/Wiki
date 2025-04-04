@@ -31,30 +31,26 @@
 			<use href="#m" x="192"/>
 			<use href="#parenright" x="210"/>
 		</g>
-		<g transform="translate(227,2)">
-		</g>
 	</g>
 	<g>
 		<g fill="#88888899" transform="translate(5,0)">
-				<use href="#parenleft" x="0"/>
-				<use href="#M" x="10"/>
-				<use href="#u" x="28"/>
-				<use href="#s" x="42"/>
-				<use href="#t" x="56"/>
-				<use href="#h" x="82"/>
-				<use href="#a" x="96"/>
-				<use href="#v" x="110"/>
-				<use href="#e" x="124"/>
-				<use href="#r" x="150"/>
-				<use href="#o" x="164"/>
-				<use href="#o" x="178"/>
-				<use href="#m" x="192"/>
-				<use href="#parenright" x="210"/>
-		</g>
-		<g fill="#FFFFFFFF" transform="translate(225,0)">
+			<use href="#parenleft" x="0"/>
+			<use href="#M" x="10"/>
+			<use href="#u" x="28"/>
+			<use href="#s" x="42"/>
+			<use href="#t" x="56"/>
+			<use href="#h" x="82"/>
+			<use href="#a" x="96"/>
+			<use href="#v" x="110"/>
+			<use href="#e" x="124"/>
+			<use href="#r" x="150"/>
+			<use href="#o" x="164"/>
+			<use href="#o" x="178"/>
+			<use href="#m" x="192"/>
+			<use href="#parenright" x="210"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:inactive}</tspan><tspan font-size="32" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="220">(Must have room)</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="224" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="225" y="28" textLength="0"></tspan>
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:inactive}</tspan><tspan font-size="32" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="220">(Must have room)</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="224" y="28" textLength="1">{}</tspan>
 	</text>
 </svg>

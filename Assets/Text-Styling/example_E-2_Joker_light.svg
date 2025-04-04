@@ -14,8 +14,6 @@
 			<use href="#e" x="42"/>
 			<use href="#r" x="56"/>
 		</g>
-		<g transform="translate(147,22)">
-		</g>
 	</g>
 	<g>
 		<g fill="#4F6367FF" transform="translate(5,0) scale(2.0)">
@@ -43,9 +41,9 @@
 			<g>
 				<g>
 					<use href="#e" x="42"/>
-					<animateMotion path="m0 0 a0.85 0.85 0 0 1 1.7 0" dur="2.4" begin="1.2000000000000002" keyTimes="0;0.25;1" keyPoints="0;1;1" repeatCount="indefinite"/>
+					<animateMotion path="m0 0 a0.85 0.85 0 0 1 1.7 0" dur="2.4" begin="1.2" keyTimes="0;0.25;1" keyPoints="0;1;1" repeatCount="indefinite"/>
 				</g>
-				<animateMotion path="m0 0 a0.85 0.85 0 0 0 -1.7 0" dur="2.4" begin="1.2000000000000002" keyTimes="0;0.25;1" keyPoints="0;1;1" repeatCount="indefinite"/>
+				<animateMotion path="m0 0 a0.85 0.85 0 0 0 -1.7 0" dur="2.4" begin="1.2" keyTimes="0;0.25;1" keyPoints="0;1;1" repeatCount="indefinite"/>
 			</g>
 			<g>
 				<g>
@@ -55,10 +53,8 @@
 				<animateMotion path="m0 0 a0.85 0.85 0 0 0 -1.7 0" dur="2.4" begin="1.6" keyTimes="0;0.25;1" keyPoints="0;1;1" repeatCount="indefinite"/>
 			</g>
 		</g>
-		<g fill="#FFFFFFFF" transform="translate(145,20)">
-		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="64" lengthAdjust="spacingAndGlyphs" x="4" y="56" textLength="1">{E:2,s:2}</tspan><tspan font-size="64" lengthAdjust="spacingAndGlyphs" x="5" y="56" textLength="140">Joker</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="144" y="48" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="145" y="48" textLength="0"></tspan>
+		<tspan font-size="64" lengthAdjust="spacingAndGlyphs" x="4" y="56" textLength="1">{E:2,s:2}</tspan><tspan font-size="64" lengthAdjust="spacingAndGlyphs" x="5" y="56" textLength="140">Joker</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="144" y="48" textLength="1">{}</tspan>
 	</text>
 </svg>

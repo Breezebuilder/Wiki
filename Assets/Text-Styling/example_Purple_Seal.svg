@@ -22,26 +22,22 @@
 			<use href="#a" x="116"/>
 			<use href="#l" x="130"/>
 		</g>
-		<g transform="translate(143,2)">
-		</g>
 	</g>
 	<g>
 		<g fill="#8867A5FF" transform="translate(5,0)">
-				<use href="#P" x="0"/>
-				<use href="#u" x="14"/>
-				<use href="#r" x="28"/>
-				<use href="#p" x="42"/>
-				<use href="#l" x="56"/>
-				<use href="#e" x="62"/>
-				<use href="#S" x="88"/>
-				<use href="#e" x="102"/>
-				<use href="#a" x="116"/>
-				<use href="#l" x="130"/>
-		</g>
-		<g fill="#FFFFFFFF" transform="translate(141,0)">
+			<use href="#P" x="0"/>
+			<use href="#u" x="14"/>
+			<use href="#r" x="28"/>
+			<use href="#p" x="42"/>
+			<use href="#l" x="56"/>
+			<use href="#e" x="62"/>
+			<use href="#S" x="88"/>
+			<use href="#e" x="102"/>
+			<use href="#a" x="116"/>
+			<use href="#l" x="130"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:purple}</tspan><tspan font-size="32" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="136">Purple Seal</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="140" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="141" y="28" textLength="0"></tspan>
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:purple}</tspan><tspan font-size="32" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="136">Purple Seal</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="140" y="28" textLength="1">{}</tspan>
 	</text>
 </svg>

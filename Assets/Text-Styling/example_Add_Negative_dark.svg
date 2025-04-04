@@ -29,9 +29,9 @@
 	</g>
 	<g>
 		<g fill="#FFFFFFFF" transform="translate(5,0)">
-				<use href="#A" x="0"/>
-				<use href="#d" x="14"/>
-				<use href="#d" x="28"/>
+			<use href="#A" x="0"/>
+			<use href="#d" x="14"/>
+			<use href="#d" x="28"/>
 		</g>
 		<g transform="translate(59,0)">
 			<animate attributeName="fill" values="#9999cc;#bda7a7;#cc9999;#bda7a7;#9999cb;#7474f0;#6565ff;#7474f0;#9999cc;"	dur="4s" repeatCount="indefinite" />
@@ -46,6 +46,6 @@
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{}</tspan><tspan font-size="32" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="54">Add </tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="58" y="28" textLength="1">{C:dark_edition}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="59" y="28" textLength="104">Negative</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="162" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="163" y="28" textLength="0"></tspan>
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{}</tspan><tspan font-size="32" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="54">Add </tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="58" y="28" textLength="1">{C:dark_edition}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="59" y="28" textLength="104">Negative</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="162" y="28" textLength="1">{}</tspan>
 	</text>
 </svg>

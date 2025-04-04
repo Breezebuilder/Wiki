@@ -20,24 +20,20 @@
 			<use href="#d" x="80"/>
 			<use href="#s" x="94"/>
 		</g>
-		<g transform="translate(115,2)">
-		</g>
 	</g>
 	<g>
 		<g fill="#F06B3FFF" transform="translate(5,0)">
-				<use href="#D" x="0"/>
-				<use href="#i" x="14"/>
-				<use href="#a" x="20"/>
-				<use href="#m" x="34"/>
-				<use href="#o" x="52"/>
-				<use href="#n" x="66"/>
-				<use href="#d" x="80"/>
-				<use href="#s" x="94"/>
-		</g>
-		<g fill="#FFFFFFFF" transform="translate(113,0)">
+			<use href="#D" x="0"/>
+			<use href="#i" x="14"/>
+			<use href="#a" x="20"/>
+			<use href="#m" x="34"/>
+			<use href="#o" x="52"/>
+			<use href="#n" x="66"/>
+			<use href="#d" x="80"/>
+			<use href="#s" x="94"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:diamonds}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="108">Diamonds</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="112" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="113" y="28" textLength="0"></tspan>
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:diamonds}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="108">Diamonds</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="112" y="28" textLength="1">{}</tspan>
 	</text>
 </svg>

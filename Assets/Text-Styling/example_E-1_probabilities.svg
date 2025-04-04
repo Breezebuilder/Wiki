@@ -27,8 +27,6 @@
 			<use href="#e" x="122"/>
 			<use href="#s" x="136"/>
 		</g>
-		<g transform="translate(157,2)">
-		</g>
 	</g>
 	<g>
 		<g fill="#4BC292FF" transform="translate(5,0)">
@@ -53,39 +51,37 @@
 				<g>
 					<use href="#o" x="28"/>
 					<use href="#i" x="96"/>
-					<animateMotion path="m0 0 a0.6 0.6 0 0 1 1.2 0 a0.6 0.6 0 0 1 -1.2 0" dur="2.4" begin="-1.5999999999999999" repeatCount="indefinite"/>
+					<animateMotion path="m0 0 a0.6 0.6 0 0 1 1.2 0 a0.6 0.6 0 0 1 -1.2 0" dur="2.4" begin="-1.6" repeatCount="indefinite"/>
 				</g>
-				<animateMotion path="m0 0 a0.6 0.6 0 0 0 -1.2 0 a0.6 0.6 0 0 0 1.2 0" dur="2.4" begin="-1.5999999999999999" repeatCount="indefinite"/>
+				<animateMotion path="m0 0 a0.6 0.6 0 0 0 -1.2 0 a0.6 0.6 0 0 0 1.2 0" dur="2.4" begin="-1.6" repeatCount="indefinite"/>
 			</g>
 			<g>
 				<g>
 					<use href="#b" x="42"/>
 					<use href="#t" x="102"/>
-					<animateMotion path="m0 0 a0.6 0.6 0 0 1 1.2 0 a0.6 0.6 0 0 1 -1.2 0" dur="2.4" begin="-1.1999999999999997" repeatCount="indefinite"/>
+					<animateMotion path="m0 0 a0.6 0.6 0 0 1 1.2 0 a0.6 0.6 0 0 1 -1.2 0" dur="2.4" begin="-1.2" repeatCount="indefinite"/>
 				</g>
-				<animateMotion path="m0 0 a0.6 0.6 0 0 0 -1.2 0 a0.6 0.6 0 0 0 1.2 0" dur="2.4" begin="-1.1999999999999997" repeatCount="indefinite"/>
+				<animateMotion path="m0 0 a0.6 0.6 0 0 0 -1.2 0 a0.6 0.6 0 0 0 1.2 0" dur="2.4" begin="-1.2" repeatCount="indefinite"/>
 			</g>
 			<g>
 				<g>
 					<use href="#a" x="56"/>
 					<use href="#i" x="116"/>
-					<animateMotion path="m0 0 a0.6 0.6 0 0 1 1.2 0 a0.6 0.6 0 0 1 -1.2 0" dur="2.4" begin="-0.7999999999999998" repeatCount="indefinite"/>
+					<animateMotion path="m0 0 a0.6 0.6 0 0 1 1.2 0 a0.6 0.6 0 0 1 -1.2 0" dur="2.4" begin="-0.8" repeatCount="indefinite"/>
 				</g>
-				<animateMotion path="m0 0 a0.6 0.6 0 0 0 -1.2 0 a0.6 0.6 0 0 0 1.2 0" dur="2.4" begin="-0.7999999999999998" repeatCount="indefinite"/>
+				<animateMotion path="m0 0 a0.6 0.6 0 0 0 -1.2 0 a0.6 0.6 0 0 0 1.2 0" dur="2.4" begin="-0.8" repeatCount="indefinite"/>
 			</g>
 			<g>
 				<g>
 					<use href="#b" x="70"/>
 					<use href="#e" x="122"/>
-					<animateMotion path="m0 0 a0.6 0.6 0 0 1 1.2 0 a0.6 0.6 0 0 1 -1.2 0" dur="2.4" begin="-0.3999999999999999" repeatCount="indefinite"/>
+					<animateMotion path="m0 0 a0.6 0.6 0 0 1 1.2 0 a0.6 0.6 0 0 1 -1.2 0" dur="2.4" begin="-0.4" repeatCount="indefinite"/>
 				</g>
-				<animateMotion path="m0 0 a0.6 0.6 0 0 0 -1.2 0 a0.6 0.6 0 0 0 1.2 0" dur="2.4" begin="-0.3999999999999999" repeatCount="indefinite"/>
+				<animateMotion path="m0 0 a0.6 0.6 0 0 0 -1.2 0 a0.6 0.6 0 0 0 1.2 0" dur="2.4" begin="-0.4" repeatCount="indefinite"/>
 			</g>
-		</g>
-		<g fill="#FFFFFFFF" transform="translate(155,0)">
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:green,E:1}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="150">probabilities</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="154" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="155" y="28" textLength="0"></tspan>
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:green,E:1}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="150">probabilities</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="154" y="28" textLength="1">{}</tspan>
 	</text>
 </svg>

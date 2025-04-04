@@ -26,8 +26,6 @@
 			<use href="#t" x="158"/>
 			<use href="#s" x="172"/>
 		</g>
-		<g transform="translate(193,2)">
-		</g>
 	</g>
 	<g>
 		<g fill="#FE5F55FF" transform="translate(5,0)">
@@ -61,9 +59,9 @@
 				<g>
 					<use href="#f" x="34"/>
 					<use href="#r" x="116"/>
-					<animateMotion path="m0 0 a0.6 0.6 0 0 1 1.2 0" dur="2.4" begin="1.2000000000000002" keyTimes="0;0.25;1" keyPoints="0;1;1" repeatCount="indefinite"/>
+					<animateMotion path="m0 0 a0.6 0.6 0 0 1 1.2 0" dur="2.4" begin="1.2" keyTimes="0;0.25;1" keyPoints="0;1;1" repeatCount="indefinite"/>
 				</g>
-				<animateMotion path="m0 0 a0.6 0.6 0 0 0 -1.2 0" dur="2.4" begin="1.2000000000000002" keyTimes="0;0.25;1" keyPoints="0;1;1" repeatCount="indefinite"/>
+				<animateMotion path="m0 0 a0.6 0.6 0 0 0 -1.2 0" dur="2.4" begin="1.2" keyTimes="0;0.25;1" keyPoints="0;1;1" repeatCount="indefinite"/>
 			</g>
 			<g>
 				<g>
@@ -81,10 +79,8 @@
 				<animateMotion path="m0 0 a0.6 0.6 0 0 0 -1.2 0" dur="2.4" begin="2.0" keyTimes="0;0.25;1" keyPoints="0;1;1" repeatCount="indefinite"/>
 			</g>
 		</g>
-		<g fill="#FFFFFFFF" transform="translate(191,0)">
-		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:red,E:2}</tspan><tspan font-size="32" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="186">self destructs</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="190" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="191" y="28" textLength="0"></tspan>
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:red,E:2}</tspan><tspan font-size="32" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="186">self destructs</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="190" y="28" textLength="1">{}</tspan>
 	</text>
 </svg>

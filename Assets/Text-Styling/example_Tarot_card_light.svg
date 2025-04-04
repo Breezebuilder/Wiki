@@ -25,17 +25,17 @@
 	</g>
 	<g>
 		<g fill="#A782D1FF" transform="translate(5,0)">
-				<use href="#T" x="0"/>
-				<use href="#a" x="14"/>
-				<use href="#r" x="28"/>
-				<use href="#o" x="42"/>
-				<use href="#t" x="56"/>
+			<use href="#T" x="0"/>
+			<use href="#a" x="14"/>
+			<use href="#r" x="28"/>
+			<use href="#o" x="42"/>
+			<use href="#t" x="56"/>
 		</g>
 		<g fill="#4F6367FF" transform="translate(75,0)">
-				<use href="#c" x="12"/>
-				<use href="#a" x="26"/>
-				<use href="#r" x="40"/>
-				<use href="#d" x="54"/>
+			<use href="#c" x="12"/>
+			<use href="#a" x="26"/>
+			<use href="#r" x="40"/>
+			<use href="#d" x="54"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">

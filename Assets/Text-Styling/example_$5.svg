@@ -8,18 +8,14 @@
 			<use href="#dollar" x="0"/>
 			<use href="#five" x="14"/>
 		</g>
-		<g transform="translate(35,2)">
-		</g>
 	</g>
 	<g>
 		<g fill="#F3B958FF" transform="translate(5,0)">
-				<use href="#dollar" x="0"/>
-				<use href="#five" x="14"/>
-		</g>
-		<g fill="#FFFFFFFF" transform="translate(33,0)">
+			<use href="#dollar" x="0"/>
+			<use href="#five" x="14"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:money}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="28">$5</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="32" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="33" y="28" textLength="0"></tspan>
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:money}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="28">$5</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="32" y="28" textLength="1">{}</tspan>
 	</text>
 </svg>

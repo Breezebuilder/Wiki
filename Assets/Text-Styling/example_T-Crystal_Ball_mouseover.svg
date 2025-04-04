@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" height="128" viewBox="0 0 266 142">
 	<defs>
 		<style>
-		.tooltip {
-			pointer-events:none;
-			opacity:0;
-		}
-		text:hover + g.tooltip {
-			opacity:1;
-		}
+			.tooltip {
+				pointer-events:none;
+				opacity:0;
+			}
+			text:hover + g.tooltip {
+				opacity:1;
+			}
 		</style>
 		<path id="plus" d="m4 14h4v4h4v4h-4v4h-4v-4h-4v-4h4v-4z"/>
 		<path id="one" d="m4 8h4v18h4v4h-12v-4h4v-12h-4v-4h4v-2z"/>
@@ -44,17 +44,17 @@
 	</g>
 	<g>
 		<g fill="#A782D1FF" transform="translate(61,104)">
-				<use href="#C" x="0"/>
-				<use href="#r" x="14"/>
-				<use href="#y" x="28"/>
-				<use href="#s" x="42"/>
-				<use href="#t" x="56"/>
-				<use href="#a" x="70"/>
-				<use href="#l" x="84"/>
-				<use href="#B" x="102"/>
-				<use href="#a" x="116"/>
-				<use href="#l" x="130"/>
-				<use href="#l" x="136"/>
+			<use href="#C" x="0"/>
+			<use href="#r" x="14"/>
+			<use href="#y" x="28"/>
+			<use href="#s" x="42"/>
+			<use href="#t" x="56"/>
+			<use href="#a" x="70"/>
+			<use href="#l" x="84"/>
+			<use href="#B" x="102"/>
+			<use href="#a" x="116"/>
+			<use href="#l" x="130"/>
+			<use href="#l" x="136"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
@@ -68,17 +68,17 @@
 			<path d="m6 56h3v-6h3v-3h6v-3h230v3h6v3h3v6h3v18h-3v6h-3v3h-6v3h-230v-3h-6v-3h-3v-6h-3z" fill="#ffffff"/>
 		</g>
 		<g fill="#FFFFFFFF" transform="translate(56,4)">
-		<use x="5" href="#C"/>
-		<use x="19" href="#r"/>
-		<use x="33" href="#y"/>
-		<use x="47" href="#s"/>
-		<use x="61" href="#t"/>
-		<use x="75" href="#a"/>
-		<use x="89" href="#l"/>
-		<use x="107" href="#B"/>
-		<use x="121" href="#a"/>
-		<use x="135" href="#l"/>
-		<use x="141" href="#l"/>
+			<use x="5" href="#C"/>
+			<use x="19" href="#r"/>
+			<use x="33" href="#y"/>
+			<use x="47" href="#s"/>
+			<use x="61" href="#t"/>
+			<use x="75" href="#a"/>
+			<use x="89" href="#l"/>
+			<use x="107" href="#B"/>
+			<use x="121" href="#a"/>
+			<use x="135" href="#l"/>
+			<use x="141" href="#l"/>
 		</g>
 		<g fill="#FF9A00FF" transform="translate(15,46)">
 			<use href="#plus" x="0"/>

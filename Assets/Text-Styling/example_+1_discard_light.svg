@@ -26,17 +26,17 @@
 	</g>
 	<g>
 		<g fill="#FE5F55FF" transform="translate(5,0)">
-				<use href="#plus" x="0"/>
-				<use href="#one" x="14"/>
+			<use href="#plus" x="0"/>
+			<use href="#one" x="14"/>
 		</g>
 		<g fill="#4F6367FF" transform="translate(33,0)">
-				<use href="#d" x="12"/>
-				<use href="#i" x="26"/>
-				<use href="#s" x="32"/>
-				<use href="#c" x="46"/>
-				<use href="#a" x="60"/>
-				<use href="#r" x="74"/>
-				<use href="#d" x="88"/>
+			<use href="#d" x="12"/>
+			<use href="#i" x="26"/>
+			<use href="#s" x="32"/>
+			<use href="#c" x="46"/>
+			<use href="#a" x="60"/>
+			<use href="#r" x="74"/>
+			<use href="#d" x="88"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">

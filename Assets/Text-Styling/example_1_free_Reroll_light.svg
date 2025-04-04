@@ -26,31 +26,27 @@
 			<use href="#l" x="56"/>
 			<use href="#l" x="62"/>
 		</g>
-		<g transform="translate(169,2)">
-		</g>
 	</g>
 	<g>
 		<g fill="#FF9A00FF" transform="translate(5,0)">
-				<use href="#one" x="0"/>
+			<use href="#one" x="0"/>
 		</g>
 		<g fill="#4F6367FF" transform="translate(19,0)">
-				<use href="#f" x="12"/>
-				<use href="#r" x="26"/>
-				<use href="#e" x="40"/>
-				<use href="#e" x="54"/>
+			<use href="#f" x="12"/>
+			<use href="#r" x="26"/>
+			<use href="#e" x="40"/>
+			<use href="#e" x="54"/>
 		</g>
 		<g fill="#4BC292FF" transform="translate(99,0)">
-				<use href="#R" x="0"/>
-				<use href="#e" x="14"/>
-				<use href="#r" x="28"/>
-				<use href="#o" x="42"/>
-				<use href="#l" x="56"/>
-				<use href="#l" x="62"/>
-		</g>
-		<g fill="#4F6367FF" transform="translate(167,0)">
+			<use href="#R" x="0"/>
+			<use href="#e" x="14"/>
+			<use href="#r" x="28"/>
+			<use href="#o" x="42"/>
+			<use href="#l" x="56"/>
+			<use href="#l" x="62"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:attention}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="14">1</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="18" y="28" textLength="1">{}</tspan><tspan font-size="32" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="19" y="28" textLength="80"> free </tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="98" y="28" textLength="1">{C:green}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="99" y="28" textLength="68">Reroll</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="166" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="167" y="28" textLength="0"></tspan>
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:attention}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="14">1</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="18" y="28" textLength="1">{}</tspan><tspan font-size="32" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="19" y="28" textLength="80"> free </tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="98" y="28" textLength="1">{C:green}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="99" y="28" textLength="68">Reroll</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="166" y="28" textLength="1">{}</tspan>
 	</text>
 </svg>

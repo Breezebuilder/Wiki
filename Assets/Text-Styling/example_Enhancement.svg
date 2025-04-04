@@ -23,27 +23,23 @@
 			<use href="#n" x="130"/>
 			<use href="#t" x="144"/>
 		</g>
-		<g transform="translate(165,2)">
-		</g>
 	</g>
 	<g>
 		<g fill="#8389DDFF" transform="translate(5,0)">
-				<use href="#E" x="0"/>
-				<use href="#n" x="14"/>
-				<use href="#h" x="28"/>
-				<use href="#a" x="42"/>
-				<use href="#n" x="56"/>
-				<use href="#c" x="70"/>
-				<use href="#e" x="84"/>
-				<use href="#m" x="98"/>
-				<use href="#e" x="116"/>
-				<use href="#n" x="130"/>
-				<use href="#t" x="144"/>
-		</g>
-		<g fill="#4F6367FF" transform="translate(163,0)">
+			<use href="#E" x="0"/>
+			<use href="#n" x="14"/>
+			<use href="#h" x="28"/>
+			<use href="#a" x="42"/>
+			<use href="#n" x="56"/>
+			<use href="#c" x="70"/>
+			<use href="#e" x="84"/>
+			<use href="#m" x="98"/>
+			<use href="#e" x="116"/>
+			<use href="#n" x="130"/>
+			<use href="#t" x="144"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:enhanced}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="158">Enhancement</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="162" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="163" y="28" textLength="0"></tspan>
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{C:enhanced}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="158">Enhancement</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="162" y="28" textLength="1">{}</tspan>
 	</text>
 </svg>

@@ -25,16 +25,16 @@
 	</g>
 	<g>
 		<g fill="#009DFFFF" transform="translate(5,0)">
-				<use href="#plus" x="0"/>
-				<use href="#five" x="14"/>
-				<use href="#zero" x="28"/>
+			<use href="#plus" x="0"/>
+			<use href="#five" x="14"/>
+			<use href="#zero" x="28"/>
 		</g>
 		<g fill="#FFFFFFFF" transform="translate(47,0)">
-				<use href="#C" x="12"/>
-				<use href="#h" x="26"/>
-				<use href="#i" x="40"/>
-				<use href="#p" x="46"/>
-				<use href="#s" x="60"/>
+			<use href="#C" x="12"/>
+			<use href="#h" x="26"/>
+			<use href="#i" x="40"/>
+			<use href="#p" x="46"/>
+			<use href="#s" x="60"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">

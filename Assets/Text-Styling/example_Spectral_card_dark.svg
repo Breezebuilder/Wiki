@@ -30,20 +30,20 @@
 	</g>
 	<g>
 		<g fill="#4584FAFF" transform="translate(5,0)">
-				<use href="#S" x="0"/>
-				<use href="#p" x="14"/>
-				<use href="#e" x="28"/>
-				<use href="#c" x="42"/>
-				<use href="#t" x="56"/>
-				<use href="#r" x="70"/>
-				<use href="#a" x="84"/>
-				<use href="#l" x="98"/>
+			<use href="#S" x="0"/>
+			<use href="#p" x="14"/>
+			<use href="#e" x="28"/>
+			<use href="#c" x="42"/>
+			<use href="#t" x="56"/>
+			<use href="#r" x="70"/>
+			<use href="#a" x="84"/>
+			<use href="#l" x="98"/>
 		</g>
 		<g fill="#FFFFFFFF" transform="translate(109,0)">
-				<use href="#c" x="12"/>
-				<use href="#a" x="26"/>
-				<use href="#r" x="40"/>
-				<use href="#d" x="54"/>
+			<use href="#c" x="12"/>
+			<use href="#a" x="26"/>
+			<use href="#r" x="40"/>
+			<use href="#d" x="54"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">

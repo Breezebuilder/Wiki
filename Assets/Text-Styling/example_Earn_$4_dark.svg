@@ -18,24 +18,20 @@
 			<use href="#dollar" x="0"/>
 			<use href="#four" x="14"/>
 		</g>
-		<g transform="translate(103,2)">
-		</g>
 	</g>
 	<g>
 		<g fill="#FFFFFFFF" transform="translate(5,0)">
-				<use href="#E" x="0"/>
-				<use href="#a" x="14"/>
-				<use href="#r" x="28"/>
-				<use href="#n" x="42"/>
+			<use href="#E" x="0"/>
+			<use href="#a" x="14"/>
+			<use href="#r" x="28"/>
+			<use href="#n" x="42"/>
 		</g>
 		<g fill="#F3B958FF" transform="translate(73,0)">
-				<use href="#dollar" x="0"/>
-				<use href="#four" x="14"/>
-		</g>
-		<g fill="#FFFFFFFF" transform="translate(101,0)">
+			<use href="#dollar" x="0"/>
+			<use href="#four" x="14"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{}</tspan><tspan font-size="32" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="68">Earn </tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="72" y="28" textLength="1">{C:money}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="73" y="28" textLength="28">$4</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="100" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="101" y="28" textLength="0"></tspan>
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{}</tspan><tspan font-size="32" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="68">Earn </tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="72" y="28" textLength="1">{C:money}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="73" y="28" textLength="28">$4</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="100" y="28" textLength="1">{}</tspan>
 	</text>
 </svg>

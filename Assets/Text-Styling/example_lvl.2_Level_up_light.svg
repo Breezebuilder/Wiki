@@ -37,26 +37,26 @@
 	</g>
 	<g>
 		<g fill="#4F6367FF" transform="translate(5,4) scale(0.8)">
-				<use href="#parenleft" x="0"/>
+			<use href="#parenleft" x="0"/>
 		</g>
 		<g fill="#89A4FFFF" transform="translate(13,4) scale(0.8)">
-				<use href="#l" x="0"/>
-				<use href="#v" x="6"/>
-				<use href="#l" x="20"/>
-				<use href="#period" x="26"/>
-				<use href="#two" x="32"/>
+			<use href="#l" x="0"/>
+			<use href="#v" x="6"/>
+			<use href="#l" x="20"/>
+			<use href="#period" x="26"/>
+			<use href="#two" x="32"/>
 		</g>
 		<g fill="#4F6367FF" transform="translate(49.8,4) scale(0.8)">
-				<use href="#parenright" x="0"/>
+			<use href="#parenright" x="0"/>
 		</g>
 		<g fill="#4F6367FF" transform="translate(57.8,0)">
-				<use href="#L" x="12"/>
-				<use href="#e" x="26"/>
-				<use href="#v" x="40"/>
-				<use href="#e" x="54"/>
-				<use href="#l" x="68"/>
-				<use href="#u" x="86"/>
-				<use href="#p" x="100"/>
+			<use href="#L" x="12"/>
+			<use href="#e" x="26"/>
+			<use href="#v" x="40"/>
+			<use href="#e" x="54"/>
+			<use href="#l" x="68"/>
+			<use href="#u" x="86"/>
+			<use href="#p" x="100"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">

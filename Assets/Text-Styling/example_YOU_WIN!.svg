@@ -18,8 +18,6 @@
 			<use href="#N" x="86"/>
 			<use href="#exclam" x="100"/>
 		</g>
-		<g transform="translate(219,22)">
-		</g>
 	</g>
 	<g>
 		<g transform="translate(5,0) scale(2.0)">
@@ -43,33 +41,33 @@
 			<g>
 				<g>
 					<use href="#U" x="28"/>
-					<animateMotion path="m0 0 a0.85 0.85 0 0 1 1.7 0 a0.85 0.85 0 0 1 -1.7 0" dur="2.4" begin="-1.5999999999999999" repeatCount="indefinite"/>
+					<animateMotion path="m0 0 a0.85 0.85 0 0 1 1.7 0 a0.85 0.85 0 0 1 -1.7 0" dur="2.4" begin="-1.6" repeatCount="indefinite"/>
 				</g>
-				<animateMotion path="m0 0 a0.85 0.85 0 0 0 -1.7 0 a0.85 0.85 0 0 0 1.7 0" dur="2.4" begin="-1.5999999999999999" repeatCount="indefinite"/>
+				<animateMotion path="m0 0 a0.85 0.85 0 0 0 -1.7 0 a0.85 0.85 0 0 0 1.7 0" dur="2.4" begin="-1.6" repeatCount="indefinite"/>
 			</g>
 			<g>
 				<g>
-					<animateMotion path="m0 0 a0.85 0.85 0 0 1 1.7 0 a0.85 0.85 0 0 1 -1.7 0" dur="2.4" begin="-1.1999999999999997" repeatCount="indefinite"/>
+					<animateMotion path="m0 0 a0.85 0.85 0 0 1 1.7 0 a0.85 0.85 0 0 1 -1.7 0" dur="2.4" begin="-1.2" repeatCount="indefinite"/>
 				</g>
-				<animateMotion path="m0 0 a0.85 0.85 0 0 0 -1.7 0 a0.85 0.85 0 0 0 1.7 0" dur="2.4" begin="-1.1999999999999997" repeatCount="indefinite"/>
+				<animateMotion path="m0 0 a0.85 0.85 0 0 0 -1.7 0 a0.85 0.85 0 0 0 1.7 0" dur="2.4" begin="-1.2" repeatCount="indefinite"/>
 			</g>
 			<g>
 				<g>
 					<use href="#W" x="54"/>
-					<animateMotion path="m0 0 a0.85 0.85 0 0 1 1.7 0 a0.85 0.85 0 0 1 -1.7 0" dur="2.4" begin="-0.7999999999999998" repeatCount="indefinite"/>
+					<animateMotion path="m0 0 a0.85 0.85 0 0 1 1.7 0 a0.85 0.85 0 0 1 -1.7 0" dur="2.4" begin="-0.8" repeatCount="indefinite"/>
 				</g>
-				<animateMotion path="m0 0 a0.85 0.85 0 0 0 -1.7 0 a0.85 0.85 0 0 0 1.7 0" dur="2.4" begin="-0.7999999999999998" repeatCount="indefinite"/>
+				<animateMotion path="m0 0 a0.85 0.85 0 0 0 -1.7 0 a0.85 0.85 0 0 0 1.7 0" dur="2.4" begin="-0.8" repeatCount="indefinite"/>
 			</g>
 			<g>
 				<g>
 					<use href="#I" x="72"/>
-					<animateMotion path="m0 0 a0.85 0.85 0 0 1 1.7 0 a0.85 0.85 0 0 1 -1.7 0" dur="2.4" begin="-0.3999999999999999" repeatCount="indefinite"/>
+					<animateMotion path="m0 0 a0.85 0.85 0 0 1 1.7 0 a0.85 0.85 0 0 1 -1.7 0" dur="2.4" begin="-0.4" repeatCount="indefinite"/>
 				</g>
-				<animateMotion path="m0 0 a0.85 0.85 0 0 0 -1.7 0 a0.85 0.85 0 0 0 1.7 0" dur="2.4" begin="-0.3999999999999999" repeatCount="indefinite"/>
+				<animateMotion path="m0 0 a0.85 0.85 0 0 0 -1.7 0 a0.85 0.85 0 0 0 1.7 0" dur="2.4" begin="-0.4" repeatCount="indefinite"/>
 			</g>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="64" lengthAdjust="spacingAndGlyphs" x="4" y="56" textLength="1">{E:1,C:edition,s:2}</tspan><tspan font-size="64" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="5" y="56" textLength="212">YOU WIN!</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="216" y="48" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="217" y="48" textLength="0"></tspan>
+		<tspan font-size="64" lengthAdjust="spacingAndGlyphs" x="4" y="56" textLength="1">{E:1,C:edition,s:2}</tspan><tspan font-size="64" xml:space="preserve" lengthAdjust="spacingAndGlyphs" x="5" y="56" textLength="212">YOU WIN!</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="216" y="48" textLength="1">{}</tspan>
 	</text>
 </svg>

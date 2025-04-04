@@ -21,14 +21,14 @@
 	</g>
 	<g>
 		<g fill="#009DFFFF" transform="translate(5,0)">
-				<use href="#plus" x="0"/>
-				<use href="#one" x="14"/>
+			<use href="#plus" x="0"/>
+			<use href="#one" x="14"/>
 		</g>
 		<g fill="#4F6367FF" transform="translate(33,0)">
-				<use href="#h" x="12"/>
-				<use href="#a" x="26"/>
-				<use href="#n" x="40"/>
-				<use href="#d" x="54"/>
+			<use href="#h" x="12"/>
+			<use href="#a" x="26"/>
+			<use href="#n" x="40"/>
+			<use href="#d" x="54"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">

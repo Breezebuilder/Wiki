@@ -12,22 +12,18 @@
 			<use href="#F" x="56"/>
 			<use href="#F" x="70"/>
 		</g>
-		<g transform="translate(91,2)">
-		</g>
 	</g>
 	<g>
 		<g fill="#ff00ff" transform="translate(5,0)">
-				<use href="#F" x="0"/>
-				<use href="#F" x="14"/>
-				<use href="#zero" x="28"/>
-				<use href="#zero" x="42"/>
-				<use href="#F" x="56"/>
-				<use href="#F" x="70"/>
-		</g>
-		<g fill="#ff00ff" transform="translate(89,0)">
+			<use href="#F" x="0"/>
+			<use href="#F" x="14"/>
+			<use href="#zero" x="28"/>
+			<use href="#zero" x="42"/>
+			<use href="#F" x="56"/>
+			<use href="#F" x="70"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">
-		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{V:1}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="84">FF00FF</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="88" y="28" textLength="1">{}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="89" y="28" textLength="0"></tspan>
+		<tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="4" y="28" textLength="1">{V:1}</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="5" y="28" textLength="84">FF00FF</tspan><tspan font-size="32" lengthAdjust="spacingAndGlyphs" x="88" y="28" textLength="1">{}</tspan>
 	</text>
 </svg>

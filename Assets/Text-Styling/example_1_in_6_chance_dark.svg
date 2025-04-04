@@ -27,18 +27,18 @@
 	</g>
 	<g>
 		<g fill="#4BC292FF" transform="translate(5,0)">
-				<use href="#one" x="0"/>
-				<use href="#i" x="26"/>
-				<use href="#n" x="32"/>
-				<use href="#six" x="58"/>
+			<use href="#one" x="0"/>
+			<use href="#i" x="26"/>
+			<use href="#n" x="32"/>
+			<use href="#six" x="58"/>
 		</g>
 		<g fill="#FFFFFFFF" transform="translate(77,0)">
-				<use href="#c" x="12"/>
-				<use href="#h" x="26"/>
-				<use href="#a" x="40"/>
-				<use href="#n" x="54"/>
-				<use href="#c" x="68"/>
-				<use href="#e" x="82"/>
+			<use href="#c" x="12"/>
+			<use href="#h" x="26"/>
+			<use href="#a" x="40"/>
+			<use href="#n" x="54"/>
+			<use href="#c" x="68"/>
+			<use href="#e" x="82"/>
 		</g>
 	</g>
 	<text font-family="m6x11plus,Courier New" fill="transparent">

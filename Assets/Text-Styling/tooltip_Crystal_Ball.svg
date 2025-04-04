@@ -19,23 +19,23 @@
 		<path id="y" d="m0 14h4v12h4v-12h4v20h-2v2h-10v-4h8v-2h-6v-2h-2v-14z"/>
 	</defs>
     <g>
-    <path d="m254 96v-3h6v-3h3v-5h3v-5h-3v6h-3v3h-6v3h-242v-3h-6v-3h-3v-6h-3v5h3v6h3v3h6v3z" fill="#919499"/>
-    <path d="m12 0v3h-6v3h-3v6h-3v68h3v6h3v3h6v3h242v-3h6v-3h3v-6h3v-68h-3v-6h-3v-3h-6v-3z" fill="#dee2ea"/>
-    <path d="m18 6v3h-6v3h-3v6h-3v56h3v6h3v3h6v3h230v-3h6v-3h3v-6h3v-56h-3v-6h-3v-3l-6 0.03v-3z" fill="#677b7e"/>
-    <path d="m6 56h3v-6h3v-3h6v-3h230v3h6v3h3v6h3v18h-3v6h-3v3h-6v3h-230v-3h-6v-3h-3v-6h-3z" fill="#ffffff"/>
+        <path d="m254 96v-3h6v-3h3v-5h3v-5h-3v6h-3v3h-6v3h-242v-3h-6v-3h-3v-6h-3v5h3v6h3v3h6v3z" fill="#919499"/>
+        <path d="m12 0v3h-6v3h-3v6h-3v68h3v6h3v3h6v3h242v-3h6v-3h3v-6h3v-68h-3v-6h-3v-3h-6v-3z" fill="#dee2ea"/>
+        <path d="m18 6v3h-6v3h-3v6h-3v56h3v6h3v3h6v3h230v-3h6v-3h3v-6h3v-56h-3v-6h-3v-3l-6 0.03v-3z" fill="#677b7e"/>
+        <path d="m6 56h3v-6h3v-3h6v-3h230v3h6v3h3v6h3v18h-3v6h-3v3h-6v3h-230v-3h-6v-3h-3v-6h-3z" fill="#ffffff"/>
     </g>
     <g fill="#FFFFFFFF" transform="translate(56,4)">
-    <use x="5" href="#C"/>
-    <use x="19" href="#r"/>
-    <use x="33" href="#y"/>
-    <use x="47" href="#s"/>
-    <use x="61" href="#t"/>
-    <use x="75" href="#a"/>
-    <use x="89" href="#l"/>
-    <use x="107" href="#B"/>
-    <use x="121" href="#a"/>
-    <use x="135" href="#l"/>
-    <use x="141" href="#l"/>
+        <use x="5" href="#C"/>
+        <use x="19" href="#r"/>
+        <use x="33" href="#y"/>
+        <use x="47" href="#s"/>
+        <use x="61" href="#t"/>
+        <use x="75" href="#a"/>
+        <use x="89" href="#l"/>
+        <use x="107" href="#B"/>
+        <use x="121" href="#a"/>
+        <use x="135" href="#l"/>
+        <use x="141" href="#l"/>
     </g>
     <g fill="#FF9A00FF" transform="translate(15,46)">
         <use href="#plus" x="0"/>
