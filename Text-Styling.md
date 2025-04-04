@@ -26,7 +26,7 @@ Balatro includes a very basic formatting syntax for styling and formatting displ
 
 Style modifiers are not additive - text will only be styled by the modifiers contained within the previous set of curly braces. Using empty braces `{}` will reset text styling for text after it.
 
-Most SMODS objects that display description text will parse and style text strings automatically when loading from [localization files](Localization.md#localization-files-recommended) or [`loc_txt`](Localization.md#loc_txt). This includes the text strings of descriptions for Achievements, Consumables, Decks, Jokers, Vouchers, and more.
+Most SMODS objects that display description text will parse and style text strings automatically when loading from [localization files](https://github.com/Steamodded/smods/wiki/Localization#localization-files-recommended) or [`loc_txt`](https://github.com/Steamodded/smods/wiki/Localization#loc_txt). This includes the text strings of descriptions for Achievements, Consumables, Decks, Jokers, Vouchers, and more.
 
 
 
@@ -205,7 +205,7 @@ This modifier is usually combined with the text colour modifier to make <img src
 
 
 ## Variable/Custom text colour modifier `{V:}`
-<code>{V:<i>index</i>}</code> changes the colour of the text to a custom colour provided as an entry in the [`loc_vars`](Localization.md#loc_vars) `vars.colours` table. See [`Localization`](Localization.md#loc_vars) for more details.
+<code>{V:<i>index</i>}</code> changes the colour of the text to a custom colour provided as an entry in the [`loc_vars`](https://github.com/Steamodded/smods/wiki/Localization#loc_vars) `vars.colours` table. See [`Localization`](https://github.com/Steamodded/smods/wiki/Localization#loc_vars) for more details.
 
 *`index`* is the array index of the colour entry in the `vars.colours` table.
 
@@ -324,7 +324,7 @@ This modifier is usually combined with the text colour modifier to make <img src
 ## Text hover tooltip modifier `{T:}`
 <code>{T:<i>tooltip-key</i>}</code> adds tooltip functionality to the text, which displays a small tooltip UI above the text when the text is hovered over.
 
-*`tooltip-key`* must be the name of a key found in either `G.P_CENTERS` or `G.P_TAGS`. See the entries in the SMODS.Center category and [SMODS.Tag](SMODS.Tag.md) for more.
+*`tooltip-key`* must be the name of a key found in either `G.P_CENTERS` or `G.P_TAGS`. See the entries in the SMODS.Center category and [SMODS.Tag](https://github.com/Steamodded/smods/wiki/SMODS.Tag) for more.
 
 ### Examples
 
@@ -861,9 +861,10 @@ Most style codes can be combined within one set of curly braces.
 This dictionary is initially assigned by the `loc_colour` function in `functions/misc_functions.lua`.
 
 Steamodded adds additional entries to `LOC_COLOURS` for all custom values in:
-- `SMODS.Rarity`
-- `SMODS.ConsumableType`
-- `SMODS.Suit`
+- [`SMODS.Rarity`](https://github.com/Steamodded/smods/wiki/SMODS.Rarity)
+- [`SMODS.Gradient`](https://github.com/Steamodded/smods/wiki/SMODS.Gradient)
+- [`SMODS.ConsumableType`](https://github.com/Steamodded/smods/wiki/SMODS.Consumable)
+- [`SMODS.Suit`](https://github.com/Steamodded/smods/wiki/SMODS.Rank-and-SMODS.Suit#api-documentation-smodssuit)
 
 which can be used in the same way by `{C:}` and `{X:}`. When referring to custom Rarities, Consumables or Suits added by SMODS, the key must be prefixed with the [mod prefix](Mod-Metadata.md#metadata)
 
