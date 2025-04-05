@@ -430,7 +430,7 @@ Unlike the similar [Defined background modifier `{X:}`](#defined-background-colo
    ```
   </td>
   <td align="center">
-   <img src="Assets/Text-Styling/example_E-1_probabilities.svg" height=32 alt="probabilities">
+   <img src="Assets/Text-Styling/example_probabilities.svg" height=32 alt="probabilities">
   </td>
  </tr>
  <tr> </tr> <!--- Empty row to ensure all codeblock rows have the same background colour -->
@@ -442,8 +442,8 @@ Unlike the similar [Defined background modifier `{X:}`](#defined-background-colo
    ```
   </td>
   <td align="center">
-   <img src="Assets/Text-Styling/example_E-2_Joker_dark.svg#gh-dark-mode-only" height=32 alt="Joker">
-   <img src="Assets/Text-Styling/example_E-2_Joker_light.svg#gh-light-mode-only" height=32 alt="Joker">
+   <img src="Assets/Text-Styling/example_Joker_dark.svg#gh-dark-mode-only" height=32 alt="Joker">
+   <img src="Assets/Text-Styling/example_Joker_light.svg#gh-light-mode-only" height=32 alt="Joker">
   </td>
  </tr>
  <tr> </tr> <!--- Empty row to ensure all codeblock rows have the same background colour -->
@@ -455,7 +455,7 @@ Unlike the similar [Defined background modifier `{X:}`](#defined-background-colo
    ```
   </td>
   <td align="center">
-   <img src="Assets/Text-Styling/example_E-2_self_destructs.svg" height=32 alt="self destructs">
+   <img src="Assets/Text-Styling/example_self_destructs.svg" height=32 alt="self destructs">
   </td>
  </tr>
 </table>
@@ -484,7 +484,7 @@ Unlike the similar [Defined background modifier `{X:}`](#defined-background-colo
    ```
   </td>
   <td align="center">
-   <img src="Assets/Text-Styling/example_T-Crystal_Ball_animated.svg" height=150 alt="Crystal Ball Tooltip">
+   <img src="Assets/Text-Styling/example_Crystal_Ball_animated.svg" height=150 alt="Crystal Ball with Tooltip Animation">
   </td>
  </tr>
 </table>
@@ -756,7 +756,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
    <code>G.C.WHITE</code>
   </td>
   <td align="center">
-   <img src="Assets/Text-Styling/example_E-2_Joker_dark.svg" height=24 alt="Joker">
+   <img src="Assets/Text-Styling/example_Joker_dark.svg" height=24 alt="Joker">
   </td>
   <td> </td>
  </tr>
@@ -997,7 +997,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
  <code>G.C.UI.TEXT_DARK</code>
   </td>
   <td align="center">
-   <img src="Assets/Text-Styling/example_E-2_Joker_light.svg" height=24 alt="Joker">
+   <img src="Assets/Text-Styling/example_Joker_light.svg" height=24 alt="Joker">
   </td>
   <td> </td>
  </tr>
