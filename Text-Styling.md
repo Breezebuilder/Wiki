@@ -200,7 +200,9 @@ Valid style modifiers are as follows:
 <code>{X:<i>colour-key</i>}</code> sets the background color of the text, where *`colour-key`* is the **key** of a colour defined in [`G.ARGS.LOC_COLOURS`](#loc_colours-table).
 
 This modifier is usually combined with the text colour modifier to make <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_X3_Mult_dark.svg"> labels.
+    <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_X3_Mult_dark.svg">
+    <img src="Assets/Text-Styling/example_X3_Mult_light.svg" height=24 alt="X3 Mult" align="center">
+</picture> labels.
 
 This modifier uniquely strips all whitespace from the styled text, so text like <code>{X:gold}&nbsp;W&nbsp;I&nbsp;D&nbsp;E&nbsp;{}</code> is rendered as <img src="Assets/Text-Styling/example_WIDE.svg" height=24 alt="WIDE" align="center">. This can be helpful for improving the readability of otherwise dense strings.
 
