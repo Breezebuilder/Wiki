@@ -148,7 +148,7 @@ Valid style modifiers are as follows:
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_+4_Mult_dark.svg">
-   <img src="Assets/Text-Styling/example_+4_Mult_light.svg" height=32 alt="+4 Mult">
+    <img src="Assets/Text-Styling/example_+4_Mult_light.svg" height=32 alt="+4 Mult">
    </picture>
   </td>
  </tr>
@@ -163,7 +163,7 @@ Valid style modifiers are as follows:
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_1_free_Reroll_dark.svg">
-   <img src="Assets/Text-Styling/example_1_free_Reroll_light.svg" height=32 alt="1 free Reroll">
+    <img src="Assets/Text-Styling/example_1_free_Reroll_light.svg" height=32 alt="1 free Reroll">
    </picture>
   </td>
  </tr>
@@ -187,7 +187,7 @@ Valid style modifiers are as follows:
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_1_in_6_chance_dark.svg">
-   <img src="Assets/Text-Styling/example_1_in_6_chance_light.svg" height=32 alt="1 in 6 chance">
+    <img src="Assets/Text-Styling/example_1_in_6_chance_light.svg" height=32 alt="1 in 6 chance">
    </picture>
   </td>
  </tr>
@@ -223,7 +223,7 @@ This modifier uniquely strips all whitespace from the styled text, so text like 
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_X3_Mult_dark.svg">
-   <img src="Assets/Text-Styling/example_X3_Mult_light.svg" height=32 alt="X3 Mult">
+    <img src="Assets/Text-Styling/example_X3_Mult_light.svg" height=32 alt="X3 Mult">
    </picture>
   </td>
  </tr>
@@ -238,7 +238,7 @@ This modifier uniquely strips all whitespace from the styled text, so text like 
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_X1.5_Chips_dark.svg">
-   <img src="Assets/Text-Styling/example_X1.5_Chips_light.svg" height=32 alt="X1.5 Chips">
+    <img src="Assets/Text-Styling/example_X1.5_Chips_light.svg" height=32 alt="X1.5 Chips">
    </picture>
   </td>
  </tr>
@@ -326,7 +326,7 @@ This modifier uniquely strips all whitespace from the styled text, so text like 
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_Heart_suit_dark.svg">
-   <img src="Assets/Text-Styling/example_Heart_suit_light.svg" height=32 alt="Heart suit">
+    <img src="Assets/Text-Styling/example_Heart_suit_light.svg" height=32 alt="Heart suit">
    </picture>
   </td>
  </tr>
@@ -393,7 +393,7 @@ Unlike the similar [Defined background modifier `{X:}`](#defined-background-colo
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_Oh_no_Anyway_dark.svg">
-   <img src="Assets/Text-Styling/example_Oh_no_Anyway_light.svg" height=32 alt="Oh no! Anyway...">
+    <img src="Assets/Text-Styling/example_Oh_no_Anyway_light.svg" height=32 alt="Oh no! Anyway...">
    </picture>
   </td>
  </tr>
@@ -461,7 +461,7 @@ Unlike the similar [Defined background modifier `{X:}`](#defined-background-colo
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_Joker_dark.svg">
-   <img src="Assets/Text-Styling/example_Joker_light.svg" height=32 alt="Joker">
+    <img src="Assets/Text-Styling/example_Joker_light.svg" height=32 alt="Joker">
    </picture>
   </td>
  </tr>
@@ -534,7 +534,7 @@ Vanilla Balatro only uses `s:0.8`, `s:0.85` and `s:1.1` text scales.
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_0.8_1.0_1.1_dark.svg">
-   <img src="Assets/Text-Styling/example_0.8_1.0_1.1_light.svg" height=35.2 alt="0.8 1.0 1.1">
+    <img src="Assets/Text-Styling/example_0.8_1.0_1.1_light.svg" height=35.2 alt="0.8 1.0 1.1">
    </picture>
   </td>
  </tr>
@@ -609,7 +609,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_lvl.2_Level_up_dark.svg">
-   <img src="Assets/Text-Styling/example_lvl.2_Level_up_light.svg" height=32 alt="(lvl.2) Level up)">
+    <img src="Assets/Text-Styling/example_lvl.2_Level_up_light.svg" height=32 alt="(lvl.2) Level up)">
    </picture>
   </td>
  </tr>
@@ -639,7 +639,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_+1_discard_dark.svg">
-   <img src="Assets/Text-Styling/example_+1_discard_light.svg" height=24 alt="+1 discard">
+    <img src="Assets/Text-Styling/example_+1_discard_light.svg" height=24 alt="+1 discard">
    </picture>
   </td>
   <td> </td>
@@ -657,7 +657,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_+4_Mult_dark.svg">
-   <img src="Assets/Text-Styling/example_+4_Mult_light.svg" height=24 alt="+4 Mult">
+    <img src="Assets/Text-Styling/example_+4_Mult_light.svg" height=24 alt="+4 Mult">
    </picture>
   </td>
   <td> </td>
@@ -675,7 +675,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_+1_hand_dark.svg">
-   <img src="Assets/Text-Styling/example_+1_hand_light.svg" height=24 alt="+1 hand">
+    <img src="Assets/Text-Styling/example_+1_hand_light.svg" height=24 alt="+1 hand">
    </picture>
   </td>
   <td> </td>
@@ -693,7 +693,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_+50_Chips_dark.svg">
-   <img src="Assets/Text-Styling/example_+50_Chips_light.svg" height=24 alt="+50 Chips">
+    <img src="Assets/Text-Styling/example_+50_Chips_light.svg" height=24 alt="+50 Chips">
    </picture>
   </td>
   <td> </td>
@@ -711,7 +711,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_1_in_6_chance_dark.svg">
-   <img src="Assets/Text-Styling/example_1_in_6_chance_light.svg" height=24 alt="1 in 6 chance">
+    <img src="Assets/Text-Styling/example_1_in_6_chance_light.svg" height=24 alt="1 in 6 chance">
    </picture>
   </td>
   <td> </td>
@@ -729,7 +729,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_Earn_$4_dark.svg">
-   <img src="Assets/Text-Styling/example_Earn_$4_light.svg" height=24 alt="Earn $4">
+    <img src="Assets/Text-Styling/example_Earn_$4_light.svg" height=24 alt="Earn $4">
    </picture>
   </td>
   <td> </td>
@@ -762,7 +762,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_+1_hand_size_dark.svg">
-   <img src="Assets/Text-Styling/example_+1_hand_size_light.svg" height=24 alt="+1 hand size">
+    <img src="Assets/Text-Styling/example_+1_hand_size_light.svg" height=24 alt="+1 hand size">
    </picture>
   </td>
   <td> </td>
@@ -884,7 +884,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_Tarot_card_dark.svg">
-   <img src="Assets/Text-Styling/example_Tarot_card_light.svg" height=24 alt="Tarot card">
+    <img src="Assets/Text-Styling/example_Tarot_card_light.svg" height=24 alt="Tarot card">
    </picture>
   </td>
   <td> </td>
@@ -902,7 +902,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_Planet_card_dark.svg">
-   <img src="Assets/Text-Styling/example_Planet_card_light.svg" height=24 alt="Planet card">
+    <img src="Assets/Text-Styling/example_Planet_card_light.svg" height=24 alt="Planet card">
    </picture>
   </td>
   <td> </td>
@@ -920,7 +920,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_Spectral_card_dark.svg">
-   <img src="Assets/Text-Styling/example_Spectral_card_light.svg" height=24 alt="Spectral card">
+    <img src="Assets/Text-Styling/example_Spectral_card_light.svg" height=24 alt="Spectral card">
    </picture>
   </td>
   <td> </td>
@@ -955,7 +955,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_Add_Negative_dark.svg">
-   <img src="Assets/Text-Styling/example_Add_Negative_light.svg" height=24 alt="Add Negative">
+    <img src="Assets/Text-Styling/example_Add_Negative_light.svg" height=24 alt="Add Negative">
    </picture>
   </td>
  </tr>
@@ -1011,7 +1011,7 @@ Some style codes can be combined within one set of curly braces, like `{X:mult,C
   <td align="center">
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Assets/Text-Styling/example_Legendary_Joker_dark.svg">
-   <img src="Assets/Text-Styling/example_Legendary_Joker_light.svg" height=24 alt="Legendary Joker">
+    <img src="Assets/Text-Styling/example_Legendary_Joker_light.svg" height=24 alt="Legendary Joker">
    </picture>
   </td>
   <td>
