@@ -249,17 +249,15 @@ This modifier uniquely strips all whitespace from the styled text, so text like 
   <td>
    
    ```pas
-   {X:mult,C:white} X#1# {}
+   {X:mult,C:white} X#1# {}     
    ```
   </td>
   <td>
 
   ```lua
-
   vars = {
     card.ability.extra.xmult -- 0.5
   }
-
   ```
   </td>
   <td align="center">
@@ -293,11 +291,9 @@ This modifier uniquely strips all whitespace from the styled text, so text like 
   <td>
    
    ```lua
-
    vars = {
      colours = { HEX("#FF00FF") }
    }
-
    ```
   </td>
   <td align="center">
@@ -368,11 +364,9 @@ Unlike the similar [Defined background modifier `{X:}`](#defined-background-colo
   <td>
    
    ```lua
-
    vars = {
      colours = { HEX("#00FF00") }
    }
-
    ```
   </td>
   <td align="center">
@@ -507,7 +501,7 @@ Unlike the similar [Defined background modifier `{X:}`](#defined-background-colo
    <br><br>
 
    ```pas
-   {C:tarot,T:v_crystal_ball}Crystal Ball{}    
+   {C:tarot,T:v_crystal_ball}Crystal Ball{}     
    ```
   </td>
   <td align="center">
