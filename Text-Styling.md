@@ -8,7 +8,7 @@ Balatro includes a very basic formatting syntax for styling and formatting displ
   <td>
 
    ```pas
-   {C:blue}+1{} hand
+   {C:blue}+1{} hand    
    ```
   </td>
   <td>
@@ -38,7 +38,7 @@ Additionally, multiple modifiers can be [combined](#combinations) in a single se
   <td>
 
    ```pas
-   {X:mult,C:white}X0.5{}
+   {X:mult,C:white}X0.5{}    
    ```
   </td>
   <td>
@@ -303,7 +303,7 @@ This modifier uniquely strips all whitespace from the styled text, so text like 
   <td>
    
    ```pas
-   {V:2}#2#{} suit{}
+   {V:2}#2#{} suit{}    
    ```
   </td>
   <td>
@@ -402,7 +402,7 @@ Unlike the similar [Defined background modifier `{X:}`](#defined-background-colo
   <td>
    
    ```pas
-   {B:1,V:2}#1#{B:2,V:1}#2#{}
+   {B:1,V:2}#1#{B:2,V:1}#2#{}    
    ```
   </td>
   <td>
@@ -443,7 +443,7 @@ Unlike the similar [Defined background modifier `{X:}`](#defined-background-colo
   <td>
 
    ```pas
-   {C:green,E:1}probabilities{}
+   {C:green,E:1}probabilities{}    
    ```
   </td>
   <td align="center">
@@ -528,7 +528,7 @@ Vanilla Balatro only uses `s:0.8`, `s:0.85` and `s:1.1` text scales.
   <td>
 
   ```pas
-  {s:0.8}0.8 {s:1.0}1.0 {s:1.1}1.1{}
+  {s:0.8}0.8 {s:1.0}1.0 {s:1.1}1.1{}    
   ```
   </td>
   <td align="center">
