@@ -178,12 +178,10 @@ Valid style modifiers are as follows:
   <td>
 
    ```lua
-   
    vars = {
      G.GAME.probabilities.normal, -- 1
      card.ability.extra.odds      -- 6
    }
-
    ```
   </td>
   <td align="center">
